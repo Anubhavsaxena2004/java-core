@@ -1,4 +1,4 @@
-
+// Java program to demonstrate the use of HashSet in java
 import java.util.*;
 class person7
 {
