@@ -10,7 +10,7 @@ public class person14 {
         System.out.println(h.size());
         System.out.println(h.get(2));
         System.out.println(h.containsKey(2));
-        System.out.println(h.containsValue("lucknow"));
+        System.out.println(h.containsValue("lucknoow"));
         h.remove(2);
         System.out.println(h);
         h.clear();
