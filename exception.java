@@ -7,9 +7,7 @@ try{
 for(int i = 0; i < args.length ; i++){
 sum += Integer.parseInt(args[i]);
 }}
-catch(NumberFormatException k){
-System.out.println("Pass the valid integer in the gui \n" + k);
-}
+finally{
 System.out.println(sum);
-}
+}}
 }
