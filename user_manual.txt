@@ -35,6 +35,15 @@ Figure 5
 
 Figure 6
 
+Now for connecting these pages to the dropdown of main event 
+go to navigator of design
+double click on jmenuitem1 and then add in the code
+Sales_Person obj = new Sales_Person(); // this is to refer the specific file with the eact file name
+        this.hide(); //this is to hide the main screen after clicking the option
+        obj.setVisible(true); //this is to make the screen of logins visible
+
+
+
 When User write User ID =E001 and Password=555 in Sales Person Login so figure 7 is open as shown below if User don’t enter this id or password so its show message as shown in figure 8.
 
 
