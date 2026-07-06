@@ -1,0 +1,239 @@
+Login Screen
+Login from is the security from of the project. It protect the project from the unauthorized user.
+Figure 1
+SOLUTION:- one a project, make a project, make Jframe, open SWING menus and then put MENU bar where removed first one and then re-named second one(EDIT) with login
+
+On the starting of the project a login screen is displayes as shown figure 1. When User click on it four option displays with their shortcut keys as shown in figure 2.
+
+Figure 2
+Choose the option if User click on Sales Person or press Ctrl+S from keyboard so the figure 3 is open. If User click on Inventory Manager or press Ctrl+I from keyboard so figure 4 is open. If User click on Sales Manager or press Ctrl+M from keyboard so figure 5 is open. Same as if User click on Administrator or press Ctrl+A from keyboard so figure 6 is open. Figure 3, figure 4, figure 5 and figure 6 are given below.
+
+
+
+
+
+
+Figure 3
+
+
+
+
+
+
+
+Figure 4
+
+
+
+
+
+
+
+Figure 5 
+
+
+
+Figure 6
+
+When User write User ID =E001 and Password=555 in Sales Person Login so figure 7 is open as shown below if User don’t enter this id or password so its show message as shown in figure 8.
+
+
+
+
+
+
+Figure 7
+
+
+
+
+Figure 8
+
+After giving correct User ID and password if User click on Login Button so the new form will open as shown in figure 9.
+Figure 9
+ 
+After that if User click on Add New Item Button on this form a new form will open as shown in figure 10.Enter details in form as shown in below figure. If User click on submit button so record saved in database and on form at same time. User can also remove records by selection. If User click on exit button so the form will be closed.
+
+ 
+Figure 10
+
+If User want to modify any record so select that record first and after that click on modify button, after clicking on modify button a new form open as shown in figure 11.In this User cannot change the item id of item.
+ 
+
+
+
+
+
+
+
+
+
+Figure 11
+After that when User click on Inventory Status Button so it show the Status of Inventory. User can search the record by Category or by Name. So it shows the detail as shown in figure 12.
+
+
+
+
+
+
+
+Figure 12
+ After that if User click on Make Bill Button so a new form open as shown in figure 13. User  can create Bill by select the Item Id from Combo box  and it show Item Name and Item Price by Default. Enter the Quantity according to you. After enter the Quantity it shows amount by default. When User click on Add Button so record add on form  Table and also save in Database in Order Bill table. By clicking on Add button total amount will increases by records and also remove by records. When User click on Make Bill so Item Quantity automatically reduce from Database in Item table. When User click on Make Bill Button so a new form will be open as shown in figure 14.
+
+ 
+Figure 13
+
+ Figure 14
+
+After that when User click on Cancel Bill Button so a new form will be open as shown in figure 15. This new form also having a Cancel Button when User click on it after selecting any record so it cancel the Bill of that selected record.
+
+
+
+
+
+Figure 15
+After that if User click on Sales Return Button a new form will be open. When User select Sales Id from Combo box so the records of that Id Displays on form table1 and when User select particular record from table1 and click on Add Item To Return Button so that selected record displays in table2 on same form as shown in figure 16. This new form having a Make Receipt Button when User click on this button a new form will open as shown in figure 17.
+ Figure 16 Figure 17
+
+When User click on Inform about Stock Button so a new form will be open shown in figure 18.If User select Item Id from Combo box so the details of that Item Id  will displayed and when User click on Add Button so it added in table which is on form. This form contains the detail of stock from which he send to Inventory Manager.
+
+
+
+
+
+
+
+
+
+Figure 18
+After that when User click on Change Password Button so a new form will be open. By the help of this form User can change our Password as shown in figure 19.
+
+
+
+
+
+
+Figure 19
+After that if User click on Logout Button so it back to the Login Form as shown in figure on page 1.
+
+Now User Login button and click on Inventory Manager so a new form open as shown in figure 4  on page 2. If User fill User ID and Password so its shows just like below figure 20.
+Enter User ID=E002 and Password=456 if User don’t write this correct detail so its show message as shown in figure 8 on page 3.
+ 
+
+
+
+
+Figure 20
+After click on login Button in figure 20 a new form will be open shown in figure 21.
+
+
+
+
+
+Figure 21
+In this form when User click on Inventory Status Button  so it displays the Inventory Status of Inventory. User can search the record by Category or by Name. So it shows the detail as shown in figure 22.
+ 
+Figure 22
+After that when User click on Change Password Button so a new form will be open. By the help of this form User can change our Password as shown in figure 23.
+
+
+
+
+
+Figure 23
+
+When User click on Inform about Stock Button so a new form will be open shown in figure 24.If User select Item Id from Combo box so the details of that Item Id  will displayed and when User click on Add Button so it added in table which is on form. This form contains the detail of stock from which he send to Inventory Manager.
+
+
+
+
+
+
+
+
+Figure 24
+After that if User click on Logout Button so it back to the Login Form as shown in figure on page 1.
+
+Now User Login button and click on Sales Manager so a new form open as shown in figure 5  on page 2. If User fill User ID and Password so its shows just like below figure 25.
+Enter User ID=E003 and Password=123 if User don’t write this correct detail so its show message as shown in figure 8 on page 3.
+
+
+
+
+
+
+Figure 25
+After click on login Button in figure 20 a new form will be open shown in figure 26.
+
+
+
+
+
+Figure 26
+When User click on Bill Report Button a new form will be open. This form contain all record which bill User have Generated. User Fetch record from selected date by clicking on Fetch Button. But if User select Invalid date and click on Fetch Button so it shows a massage as shown in figure 28.These all Transactions shown as figure 27.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 27
+
+
+
+Figure 28 When User click on Cancelled Bill Report Button a new form will be open. This form contain all record which bill User have Generated. User Fetch Cancelled record from selected date by clicking on Fetch Button. But if User select Invalid date and click on Fetch Button so it shows a massage as shown in figure 28 on page no 15. These all Transactions shown as figure 29.
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 29
+ When User click on Sales Return Report Button a new form will be open. This form contain all record which bill User have Generated. User Fetch Sales Return record from selected date by clicking on Fetch Button. But if User select Invalid date and click on Fetch Button so it shows a massage as shown in figure 28 on page no 15. These all Transactions shown as figure 30.
+ 
+Figure 30
+After that if User click on Logout Button so it back to the Login Form as shown in figure on page 1.
+ Now User Login button and click on Administrator so a new form open as shown in figure 6 on page 3. If User fill User ID and Password so its shows just like below figure 31.
+Enter User ID=1 and Password=525 if User don’t write this correct detail so its show message as shown in figure 8 on page 3.
+
+
+
+
+
+
+Figure 31 
+
+When User click on the login Button so a new form will open as shown in figure32.
+ 
+Figure 32
+ When User click on Add New Employee Button so a new form will be open as shown in figure 33.
+ 
+Figure 33
+After that if User want to Modify any record so it select the record from figure 32 table as shown in figure 34.
+
+
+
+
+
+
+
+
+Figure 33
+After that if User want to delete any Employee so User can click on Delete Employee Button by select record as shown in figure 32.
+
+After that if User click on Logout Button so it back to the Login Form as shown in figure on page 1.
+
+
