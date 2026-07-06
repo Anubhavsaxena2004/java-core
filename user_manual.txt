@@ -16,7 +16,7 @@ jmenu, add from pallete, menu Item for adding the dropdown and then double click
 Figure 3
 
 
-
+For each We have to make a New Jframe and then add panel to whole screen then to properties and then to border to titled border to set the name upon the bar then adding labels, text fields, and buttons for the whole designing.
 
 
 
