@@ -9,8 +9,8 @@ Figure 2
 Choose the option if User click on Sales Person or press Ctrl+S from keyboard so the figure 3 is open. If User click on Inventory Manager or press Ctrl+I from keyboard so figure 4 is open. If User click on Sales Manager or press Ctrl+M from keyboard so figure 5 is open. Same as if User click on Administrator or press Ctrl+A from keyboard so figure 6 is open. Figure 3, figure 4, figure 5 and figure 6 are given below.
 
 
-
-
+SOLUTION
+jmenu, add from pallete, menu Item for adding the dropdown and then double click and it changes the shortcut key and text
 
 
 Figure 3
