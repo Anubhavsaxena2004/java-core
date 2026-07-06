@@ -1,1 +1,1 @@
-this program is to display an image in a JFrame using Java Swing
+//this program is to display an image in a JFrame using Java Swing
